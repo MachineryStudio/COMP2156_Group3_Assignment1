@@ -1,0 +1,3 @@
+#Software development is crucial for all I.T technician and Technologist
+#Git hub is a platform that allows us to integrate, develpved algorithmically any application
+#

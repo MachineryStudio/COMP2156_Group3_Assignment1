@@ -1,48 +1,40 @@
 {
-  "name": "comp2146",
-  "version": "1.0.0",
-  "description": "hello Andre World",
-  "main": "index.js",
-
+  "name": "devops_comp2156_lab6",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
   "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "predeploy": "yarn run build",
-      "deploy": "gh-pages -d build",
-      "test": "echo \"Warning: No tests created yet.\"",
-      "eject": "react-scripts eject"
-    },
-    
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MachineryStudio/comp2146.git"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "test": "echo \"Warning: No tests created yet.\"",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
-  "keywords": [],
-  "author": "Andre Ramirez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MachineryStudio/comp2146/issues"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "homepage": "https://github.com/MachineryStudio/comp2146#readme",
-
-
-"dependencies": 
-{
-  "gh-pages": "^ 5.0.0",
-  "react": "^18.2.0",
-  "react-dom": "^18.2.3",
-  "react-scripts": "5.0.1",
-  "travis": "^0.1.1",
-  "yarn": "^1.13.0"
-},
-
-"eslintConfig": {
-  "extends": "react-app"
-},
-"browserslist": [
-  ">0.2%",
-  "not dead",
-  "not ie <= 11",
-  "not op_mini all"
-]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
